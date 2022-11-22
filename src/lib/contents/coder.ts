@@ -277,7 +277,7 @@ const coderColumn: FeatureTableColumn = {
         },
         {
           term: "Architecture",
-          text: "Virtual Machines",
+          text: "Virtual Machines & Secure Containers",
         },
         {
           term: "Made for teams",
@@ -293,7 +293,7 @@ const coderColumn: FeatureTableColumn = {
         },
         {
           term: "Pricing (Self-hosted)",
-          text: "$$$",
+          text: "Free tier available",
         },
         {
           term: "GitLab Integration",

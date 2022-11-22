@@ -12,7 +12,6 @@
   import OpenGraph from "$lib/components/open-graph.svelte";
   import Section from "$lib/components/section.svelte";
   import Speed from "$lib/components/svgs/coder/speed.svelte";
-  import VmsContainer from "$lib/components/svgs/coder/vms-container.svelte";
   import FeatureTable from "$lib/components/ui-library/feature-table/feature-table.svelte";
   import LinkButton from "$lib/components/ui-library/link-button/link-button.svelte";
   import VerticalFeature from "$lib/components/vertical-feature.svelte";
@@ -81,21 +80,13 @@
       },
     }}
   />
-  <FeatureBox
-    feature={{
-      title: "Greater cost-efficiency",
-      paragraph:
-        "Instead of running on expensive VMs, Gitpod provisions secure containers and achieves best-in-class resource-efficiency with scalable workspaces running on shared high-powered cloud servers. <div><strong><br />Saves you money, helps our planet 🌱.</strong></div>",
-      previewComponent: VmsContainer,
-    }}
-  />
 </FeatureBoxes>
 
 <Section>
   <h2 class="text-center mb-x-small md:mb-small">Compare features</h2>
   <FeatureTable
     tableData={comparison}
-    footnote="Disclaimer: All data were last verified on July. 27, 2022. To report any incorrect or outdated information, please <a href='/contact/support'>contact us</a>."
+    footnote="Disclaimer: All data were last verified on November. 22, 2022. To report any incorrect or outdated information, please <a href='/contact/support'>contact us</a>."
   />
 </Section>
 
